@@ -15,7 +15,7 @@ import java.awt.Font;
 import java.awt.GridLayout;
 
 public class DecryptionForm extends JPanel {
-    JTextField encryptedCode;
+    private JTextField encryptedCode;
     private int a = 0, b = 0, c = 0;
 
     public DecryptionForm() {

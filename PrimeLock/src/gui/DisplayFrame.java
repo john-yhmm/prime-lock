@@ -6,7 +6,7 @@ import javax.swing.SwingConstants;
 import java.awt.Font;
 
 public class DisplayFrame extends JFrame {
-    DisplayFrame(String code) {
+    public DisplayFrame(String code) {
         setSize(480, 100);
 
         JLabel label = new JLabel(code, SwingConstants.CENTER);
