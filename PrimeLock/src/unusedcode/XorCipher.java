@@ -1,4 +1,4 @@
-package encryption.SimpleCiphers;
+package unusedcode;
 
 public class XorCipher {
     public static String xorEncryptDecrypt(String text, char key) {

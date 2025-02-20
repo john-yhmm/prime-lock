@@ -1,19 +1,17 @@
 package authentication;
 
-public class User {
+public abstract class User {
     private String nationalId;
     private String passportNo;
-    private String employeeId;
     private String password;
 
     public User() {
 
     }
 
-    public User(String nationalId, String passportNo, String employeeId, String password) {
+    public User(String nationalId, String passportNo, String password) {
         this.nationalId = nationalId;
         this.passportNo = passportNo;
-        this.employeeId = employeeId;
         this.password = password;
     }
 
@@ -31,14 +29,6 @@ public class User {
 
     public void setPassportNo(String passportNo) {
         this.passportNo = passportNo;
-    }
-
-    public String getEmployeeId() {
-        return employeeId;
-    }
-
-    public void setEmployeeId(String employeeId) {
-        this.employeeId = employeeId;
     }
 
     public String getPassword() {

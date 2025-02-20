@@ -1,4 +1,4 @@
-package encodings;
+package unusedcode;
 
 public class Base89Encoder {
     private static final String BASE =

@@ -1,4 +1,4 @@
-package encodings;
+package unusedcode;
 
 import java.math.BigInteger;
 
