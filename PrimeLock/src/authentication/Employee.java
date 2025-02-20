@@ -3,7 +3,7 @@ package authentication;
 public class Employee extends User {
     private String employeeId;
 
-    public Employee(String nationalId, String passportNo, String password, String employeeId) {
+    public Employee(String nationalId, String passportNo, String employeeId, String password) {
         super(nationalId, passportNo, password);
         this.employeeId = employeeId;
     }
